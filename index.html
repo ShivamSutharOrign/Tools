@@ -292,7 +292,7 @@
             margin-bottom: 1rem;
         }
 
-        .tool-link {/toolimg-compress.html
+        .tool-link {
             display: inline-block;
             color: var(--primary);
             font-weight: 600;
@@ -300,7 +300,7 @@
             transition: var(--transition);
         }
 
-        .tool-link:hover {
+        .tool-link:hover {/tool/img-compress.html
             color: var(--secondary);
         }
 
@@ -357,7 +357,7 @@
             background: var(--accent);
         }
 
-        .footer-links {
+        .footer-links {/toolimg-compress.html
             list-style: none;
         }
 
@@ -471,16 +471,16 @@
                 </div>
                 
                 <div class="nav-links">
-                    <a href="#">Home</a>
-                    <a href="#">Image Tools</a>
-                    <a href="#">PDF Tools</a>
-                    <a href="#">Pricing</a>
-                    <a href="#">Blog</a>
+                    <a href="#home">Home</a>
+                    <a href="#image-tools">Image Tools</a>
+                    <a href="#pdf-tools">PDF Tools</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#blog">Blog</a>
                 </div>
                 
                 <div class="auth-buttons">
-                    <a href="#" class="btn btn-outline">Login</a>
-                    <a href="#" class="btn btn-primary">Sign Up</a>
+                    <a href="login.html" class="btn btn-outline">Login</a>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
                 </div>
                 
                 <div class="menu-toggle">
@@ -491,14 +491,14 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="container">
             <div class="hero-content">
                 <h1>All Your Image & PDF Tools in One Place</h1>
                 <p>Convert, compress, edit, and optimize your images and PDFs with our powerful online toolkit. Fast, secure, and completely free to use.</p>
                 <div class="hero-buttons">
-                    <a href="#" class="btn btn-primary">Explore Image Tools</a>
-                    <a href="#" class="btn btn-outline">Try PDF Tools</a>
+                    <a href="#image-tools" class="btn btn-primary">Explore Image Tools</a>
+                    <a href="#pdf-tools" class="btn btn-outline">Try PDF Tools</a>
                 </div>
             </div>
         </div>
@@ -519,7 +519,7 @@
                     </div>
                     <h3>Lightning Fast</h3>
                     <p>Process your files in seconds with our optimized algorithms and cloud infrastructure.</p>
-                    <a href="#" class="tool-link">Learn More →</a>
+                    <a href="#features" class="tool-link">Learn More →</a>
                 </div>
                 
                 <div class="feature-card">
@@ -528,7 +528,7 @@
                     </div>
                     <h3>Secure & Private</h3>
                     <p>Your files are processed securely and never stored on our servers after processing.</p>
-                    <a href="#" class="tool-link">Learn More →</a>
+                    <a href="#security" class="tool-link">Learn More →</a>
                 </div>
                 
                 <div class="feature-card">
@@ -537,29 +537,28 @@
                     </div>
                     <h3>Fully Responsive</h3>
                     <p>Access all tools from any device - desktop, tablet, or mobile with our responsive design.</p>
-                    <a href="#" class="tool-link">Learn More →</a>
+                    <a href="#responsive" class="tool-link">Learn More →</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Tools Section -->
-    <section class="tools">
+    <!-- Image Tools Section -->
+    <section class="tools" id="image-tools">
         <div class="container">
             <div class="section-title">
-                <h2>Popular Tools</h2>
-                <p>Discover our most used image and PDF utilities</p>
+                <h2>Image Tools</h2>
+                <p>Powerful tools to optimize, convert, and edit your images</p>
             </div>
             
             <div class="tools-grid">
-                <!-- Image Tools -->
                 <div class="tool-card">
                     <div class="tool-icon">
                         <i class="fas fa-compress-arrows-alt"></i>
                     </div>
                     <h3>Image Compressor</h3>
                     <p>Reduce image file size without losing quality</p>
-                    <a href="#" class="tool-link">Use Tool →</a>
+                    <a href="image-compressor.html" class="tool-link">Use Tool →</a>
                 </div>
                 
                 <div class="tool-card">
@@ -568,7 +567,7 @@
                     </div>
                     <h3>Image Converter</h3>
                     <p>Convert between JPG, PNG, WEBP, and more formats</p>
-                    <a href="#" class="tool-link">Use Tool →</a>
+                    <a href="image-converter.html" class="tool-link">Use Tool →</a>
                 </div>
                 
                 <div class="tool-card">
@@ -577,17 +576,55 @@
                     </div>
                     <h3>Image Resizer</h3>
                     <p>Resize images to exact dimensions while maintaining quality</p>
-                    <a href="#" class="tool-link">Use Tool →</a>
+                    <a href="image-resizer.html" class="tool-link">Use Tool →</a>
                 </div>
                 
-                <!-- PDF Tools -->
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Background Remover</h3>
+                    <p>Remove backgrounds from images automatically</p>
+                    <a href="background-remover.html" class="tool-link">Use Tool →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Watermark Tool</h3>
+                    <p>Add text or image watermarks to protect your photos</p>
+                    <a href="watermark-tool.html" class="tool-link">Use Tool →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Image Enhancer</h3>
+                    <p>Automatically enhance image quality and colors</p>
+                    <a href="image-enhancer.html" class="tool-link">Use Tool →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PDF Tools Section -->
+    <section class="tools" id="pdf-tools" style="background-color: #f5f7ff;">
+        <div class="container">
+            <div class="section-title">
+                <h2>PDF Tools</h2>
+                <p>Comprehensive PDF utilities for all your document needs</p>
+            </div>
+            
+            <div class="tools-grid">
                 <div class="tool-card">
                     <div class="tool-icon">
                         <i class="fas fa-file-pdf"></i>
                     </div>
                     <h3>PDF Compressor</h3>
                     <p>Reduce PDF file size for easier sharing and storage</p>
-                    <a href="#" class="tool-link">Use Tool →</a>
+                    <a href="pdf-compressor.html" class="tool-link">Use Tool →</a>
                 </div>
                 
                 <div class="tool-card">
@@ -596,7 +633,7 @@
                     </div>
                     <h3>PDF to JPG</h3>
                     <p>Convert PDF pages to high-quality JPG images</p>
-                    <a href="#" class="tool-link">Use Tool →</a>
+                    <a href="pdf-to-jpg.html" class="tool-link">Use Tool →</a>
                 </div>
                 
                 <div class="tool-card">
@@ -605,7 +642,25 @@
                     </div>
                     <h3>JPG to PDF</h3>
                     <p>Convert multiple JPG images to a single PDF file</p>
-                    <a href="#" class="tool-link">Use Tool →</a>
+                    <a href="jpg-to-pdf.html" class="tool-link">Use Tool →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-object-group"></i>
+                    </div>
+                    <h3>PDF Merger</h3>
+                    <p>Combine multiple PDF files into one document</p>
+                    <a href="pdf-merger.html" class="tool-link">Use Tool →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>PDF Splitter</h3>
+                    <p>Split PDF documents into separate files</p>
+                    <a href="pdf-splitter.html" class="tool-link">Use Tool →</a>
                 </div>
                 
                 <div class="tool-card">
@@ -614,16 +669,7 @@
                     </div>
                     <h3>PDF Protect</h3>
                     <p>Add password protection to your PDF files</p>
-                    <a href="#" class="tool-link">Use Tool →</a>
-                </div>
-                
-                <div class="tool-card">
-                    <div class="tool-icon">
-                        <i class="fas fa-unlock"></i>
-                    </div>
-                    <h3>PDF Unlock</h3>
-                    <p>Remove password protection from PDF files</p>
-                    <a href="#" class="tool-link">Use Tool →</a>
+                    <a href="pdf-protect.html" class="tool-link">Use Tool →</a>
                 </div>
             </div>
         </div>
@@ -634,7 +680,7 @@
         <div class="container">
             <h2>Ready to Get Started?</h2>
             <p>Join thousands of users who trust our tools for their image and PDF needs. No registration required - start using our tools right away!</p>
-            <a href="#" class="btn btn-primary">Explore All Tools</a>
+            <a href="#all-tools" class="btn btn-primary">Explore All Tools</a>
         </div>
     </section>
 
@@ -646,43 +692,43 @@
                     <h3>ToolKit Pro</h3>
                     <p>Your all-in-one solution for image and PDF tools. Fast, secure, and easy to use.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://facebook.com/toolkitpro" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/toolkitpro" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/toolkitpro" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/company/toolkitpro" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 
                 <div class="footer-column">
                     <h3>Image Tools</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Compress Image</a></li>
-                        <li><a href="#">Resize Image</a></li>
-                        <li><a href="#">Convert Image</a></li>
-                        <li><a href="#">Watermark</a></li>
-                        <li><a href="#">Crop Image</a></li>
+                        <li><a href="image-compressor.html">Compress Image</a></li>
+                        <li><a href="image-resizer.html">Resize Image</a></li>
+                        <li><a href="image-converter.html">Convert Image</a></li>
+                        <li><a href="watermark-tool.html">Watermark</a></li>
+                        <li><a href="background-remover.html">Background Remover</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
                     <h3>PDF Tools</h3>
                     <ul class="footer-links">
-                        <li><a href="#">Compress PDF</a></li>
-                        <li><a href="#">Merge PDF</a></li>
-                        <li><a href="#">Split PDF</a></li>
-                        <li><a href="#">PDF to JPG</a></li>
-                        <li><a href="#">Protect PDF</a></li>
+                        <li><a href="pdf-compressor.html">Compress PDF</a></li>
+                        <li><a href="pdf-merger.html">Merge PDF</a></li>
+                        <li><a href="pdf-splitter.html">Split PDF</a></li>
+                        <li><a href="pdf-to-jpg.html">PDF to JPG</a></li>
+                        <li><a href="pdf-protect.html">Protect PDF</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
                     <h3>Company</h3>
                     <ul class="footer-links">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -713,6 +759,24 @@
                 document.querySelector('.auth-buttons').style.display = 'none';
             }
         });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
     </script>
 </body>
-</html>
+                                                         </html>
